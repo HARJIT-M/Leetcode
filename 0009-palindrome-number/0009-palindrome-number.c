@@ -1,6 +1,6 @@
 bool isPalindrome(int x) {
     int n=x;
-    int sum=0;
+    double sum=0;
     while(n>0)
     {
         int a=n%10;
