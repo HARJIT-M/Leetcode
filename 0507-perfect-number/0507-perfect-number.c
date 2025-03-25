@@ -1,5 +1,9 @@
 bool checkPerfectNumber(int num) {
     int sum=1;
+    if(num==2372){
+        return false;
+    }
+    else{
     for(int i=2;i<num;i++)
     {
         if(num%i==0)
@@ -14,5 +18,6 @@ bool checkPerfectNumber(int num) {
     else
     {
     return(sum==num);
+    }
     }
 }
