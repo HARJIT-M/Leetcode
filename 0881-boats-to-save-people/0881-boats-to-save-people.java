@@ -9,10 +9,15 @@ class Solution {
 
         while (i <= j) {
             if (people[i] + people[j] <= limit) {
+                count++;
+                j--;
                 i++;
             }
+            else
+            {
             j--;
             count+=1;
+            }
         }
 
         return count;
